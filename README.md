@@ -5,10 +5,10 @@ In this competition, you’ll develop accurate models of metered building energy
 ## Notebooks:
 The Notebooks represent the different steps of our solution to the Ashrae III competition:
 
-- EDA:
+- **EDA**:
 It contains the Exploratory Data Analysis step in which we perform performing initial investigations on data so as to discover patterns, to spot anomalies and missing values as well as data vizualisation.
 
-- Pre-processing:
+- **Pre-processing**:
 This step involve feature engineering in which we extract the 28 features, such as raw data (e.g., meter, building metadata and weather parameters), categorical interactions between building metadata and meters, various features of the weather data, and diﬀerent target encoding features. And in the output we retrieve the 'Train', 'Validation' and 'Test' datasets.
 
 - **ANN**: Using the deep learning models : Artificial neural networks to predict meter building reading for the period of two years.
